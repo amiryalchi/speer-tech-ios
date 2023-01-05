@@ -7,7 +7,10 @@
 
 import Foundation
 
+// user model
+
 struct GitUser: Codable {
+    
     let avatar_url: String?
     let login: String
     let name: String?

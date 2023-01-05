@@ -34,6 +34,7 @@ class GitUserTableViewCell: UITableViewCell {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.contentMode = .scaleAspectFit
+        imageView.layer.cornerRadius = 25
         imageView.clipsToBounds = true
         return imageView
     }()
