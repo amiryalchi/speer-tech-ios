@@ -38,6 +38,7 @@ class SearchViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        overrideUserInterfaceStyle = .light
         view.backgroundColor = .lightGray
         setUpViews()
         let tap = UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing))
